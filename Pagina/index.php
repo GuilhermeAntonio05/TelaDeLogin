@@ -16,6 +16,7 @@
         </div>
 
         <div id="formulario">
+            <!-- essa tag <action> após o input submit ativa o arquivo (add_usuario.php), usando o metodo post -->
             <form action="add_usuario.php" method="POST">
                 <input type="text" name="nome" placeholder="Digte seu nome" required>
                 <input type="email" name="email" placeholder="Digte seu email" required>
