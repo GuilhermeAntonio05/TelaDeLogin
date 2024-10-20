@@ -4,20 +4,19 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Eu não aguento mais criar htmls</title>
-    <link rel="stylesheet" href="style.css">
+    <title>TelaDeLogin</title>
+    <link rel="stylesheet" href="estilos/style.css">
 </head>
 
 <body>
     <div id="fulldiv">
         <div id="titulo">
-            <h1>Tela de login</h1>
-            <p>Por favor entre com seus dados.</p>
+            <h1>Confirmação dos dados</h1>
+            <p>Por favor insira novamente seus dados.</p>
         </div>
 
         <div id="formulario">
-            <!-- essa tag <action> após o input submit ativa o arquivo (add_usuario.php), usando o metodo post -->
-            <form action="add_usuario.php" method="POST">
+            <form action="aplicacoes/login_validacao.php" method="POST">
                 <input type="text" name="nome" placeholder="Digte seu nome" required>
                 <input type="email" name="email" placeholder="Digte seu email" required>
                 <input type="password" name="senha" placeholder="Digite sua senha" required>
